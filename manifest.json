@@ -4,7 +4,10 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-            "matches": ["https://*.schoology.com/home/notifications"],
+            "matches": [
+                "https://*.schoology.com/home/notifications",
+                "https://*.schoology.com/home/notifications?from_popup&"
+            ],
             "js": ["script.js"],
             "css": ["styles.css"]
         }

@@ -4,4 +4,4 @@ Creates a button that when clicked removes all discussion response and reply not
 
 ![](demo.gif)
 
-Import into [\<browsername\>://extensions](chrome://extensions) with developer mode enabled. Webstore version coming soon!
+Import into `chrome://extensions` with developer mode enabled. Webstore version coming soon!
