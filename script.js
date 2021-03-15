@@ -17,7 +17,7 @@ const removeUselessNotifications = () => {
 
 const clearBtn = document.createElement("button");
 
-clearBtn.textContent = "Clear";
+clearBtn.textContent = "Clear + Search";
 clearBtn.classList.add("clearBtn");
 clearBtn.addEventListener("click", () => removeUselessNotifications());
 
